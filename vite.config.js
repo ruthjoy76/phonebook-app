@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/phonebook-app/',
   plugins: [react()],
+  server: {
+    proxy: "https://phonebook-api-ctw8.onrender.com",
+  },
+  
 });
