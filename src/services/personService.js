@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3002/api/persons';
+const baseUrl = 'https://phonebook-api-ctw8.onrender.com/api/persons';
 
 function getPersons() {
     return fetch(baseUrl)
