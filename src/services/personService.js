@@ -1,4 +1,4 @@
-const baseUrl = 'https://phonebook-api-xbnq.onrender.com/api/persons';
+const baseUrl = '/api/persons';
 
 function getPersons() {
     return fetch(baseUrl)
