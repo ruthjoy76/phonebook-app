@@ -28,7 +28,7 @@ function PersonList({persons, setPersons}) {
         key={person.id}
         className="flex items-center justify-between bg-white rounded-lg shadow-md w-96 p-4 mb-4"
       >
-        <span className="text-gray-800">{person.name}</span>
+        <span className="text-gray-800">{person.name}: {person.number}</span>
         <button
           className="text-purple-500 hover:text-purple-700 focus:outline-none"
           onClick={() => deletePerson(person.id)}
