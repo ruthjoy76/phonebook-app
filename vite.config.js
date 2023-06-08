@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/phonebook-app/',
   plugins: [react()],
   server: {
-    proxy: "https://phonebook-api-ctw8.onrender.com",
+    proxy: "http://localhost:8080",
   },
   
 });
