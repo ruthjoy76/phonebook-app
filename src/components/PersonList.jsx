@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import personService from "../services/personService";
 
-
-
 function PersonList({persons, setPersons}) {
   useEffect(() => {
     personService

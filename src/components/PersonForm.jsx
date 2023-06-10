@@ -1,7 +1,6 @@
 import { useState } from "react"
 import personService from "../services/personService";
 
-
 function Contacts({persons, setPersons}) {
 
   const [newPerson, setNewPerson] = useState("");
