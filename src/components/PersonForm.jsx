@@ -1,7 +1,7 @@
 import { useState } from "react"
 import personService from "../services/personService";
 
-function Contacts({persons, setPersons}) {
+function PersonForm({persons, setPersons}) {
 
   const [newPerson, setNewPerson] = useState("");
   const [newNumber, setNewNumber] = useState("");
@@ -60,4 +60,4 @@ function Contacts({persons, setPersons}) {
 );
 };
 
-export default Contacts;
+export default PersonForm;
